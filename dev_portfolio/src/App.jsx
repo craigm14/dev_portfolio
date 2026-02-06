@@ -1,8 +1,10 @@
-import Hero from "./conponents/Hero/Hero";
+import "./index.css";
+import Banner from "./conponents/Hero/Banner";
+
 function App() {
   return (
     <>
-      <Hero></Hero>
+      <Banner />
     </>
   );
 }
