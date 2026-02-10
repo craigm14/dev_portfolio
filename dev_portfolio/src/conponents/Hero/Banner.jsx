@@ -7,7 +7,7 @@ function Banner() {
           <img
             class="w-30 h-32 rounded-2xl"
             src={heroimg}
-            alt="Profile picture"
+            alt="Profile picture - Craig"
           />
           <div class="intro">
             <h1>Craig Moore</h1>

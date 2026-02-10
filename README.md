@@ -13,3 +13,5 @@ Personl Portfolio
 ## Day 3 - Updates to folder structure, adding hero conponent. Add content and styling tomorrow.
 
 ## Day 4 - Building the hero conponent (work in progress)
+
+## Day 5 - Banner Updates
