@@ -15,3 +15,5 @@ Personl Portfolio
 ## Day 4 - Building the hero conponent (work in progress)
 
 ## Day 5 - Banner Updates
+
+##Day 6 - Small Banner updates
