@@ -16,4 +16,4 @@ Personl Portfolio
 
 ## Day 5 - Banner Updates
 
-##Day 6 - Small Banner updates
+## Day 6 - Small Banner updates
