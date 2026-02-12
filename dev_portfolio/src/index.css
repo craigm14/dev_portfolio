@@ -2,9 +2,10 @@
 
 :root {
   font-family: Arial, sans-serif;
-  color: #fff;
   background-color: #141414;
   margin: 0;
+  color: #fff;
+  --primary-color: #64748b;
 }
 
 a {

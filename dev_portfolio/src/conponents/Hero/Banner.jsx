@@ -10,7 +10,12 @@ function Banner() {
             alt="Profile picture - Craig"
           />
           <div className="intro">
-            <h1>Craig Moore</h1>
+            <h1
+              className="font-bold text-2xl"
+              style={{ color: "var(--primary-color)" }}
+            >
+              Craig Moore
+            </h1>
             <h2>Website coordinator</h2>
             <h3>Glasgow, UK</h3>
             <span>
