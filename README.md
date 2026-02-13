@@ -17,3 +17,5 @@ Personl Portfolio
 ## Day 5 - Banner Updates
 
 ## Day 6 - Small Banner updates
+
+## Day 7 - Turns out fontawesome doesnt work with the latest version of React, had to pull and replace local files with version from Github
