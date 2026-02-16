@@ -19,3 +19,5 @@ Personl Portfolio
 ## Day 6 - Small Banner updates
 
 ## Day 7 - Turns out fontawesome doesnt work with the latest version of React, had to pull and replace local files with version from Github
+
+## Day 8 - Had some trouble with vite today, reinstalled Node and updated the banner with Remixicon (added socials and download CV to banner)
