@@ -4,7 +4,7 @@ import { RiLinkedinBoxFill } from "@remixicon/react";
 import { RiGithubFill } from "@remixicon/react";
 function Banner() {
   return (
-    <section className="max-w-[700px] mx-auto pt-10">
+    <section className="flex flex-col gap-2 max-w-[700px] mx-auto pt-10 max-md:flex-col max-md:gap-4 max-md:mx-4">
       <div className="flex items-start justify-between gap-6">
         <div className="flex items-start gap-4">
           <img
@@ -37,17 +37,22 @@ function Banner() {
         <section className="max-w-[700px] mx-auto px-7 py-3 border-b border-white"></section>
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="text-left pt-2">
-            <p>craig-moore22@outlook.com</p>
+            <a href="mailto:craig-moore22@outlook.com">
+              craig-moore22@outlook.com
+            </a>
           </div>{" "}
           <div className="text-right pt-2">
             <a
               href=""
-              className="inline-flex items-center gap-1 text-white mx-2"
+              className="inline-flex items-center gap-1 text-white mx-2 hover:underline"
             >
               <RiLinkedinBoxFill color="rgba(255,255,255,1)" />
               LinkedIn
             </a>
-            <a href="" className="inline-flex items-center gap-1 text-white ">
+            <a
+              href=""
+              className="inline-flex items-center gap-1 text-white hover:underline "
+            >
               <RiGithubFill color="rgba(255,255,255,1)" />
               LinkedIn
             </a>
