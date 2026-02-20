@@ -26,4 +26,4 @@ Personl Portfolio
 
 ## Day 10 - Added new projects section, will start to fill that out tomorrow
 
-## Day 11 - added in card styling
+## Day 11 - added in card styling, and some content
