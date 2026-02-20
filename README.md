@@ -25,3 +25,5 @@ Personl Portfolio
 ## Day 9 - Added more styling, built jsx file for about section and added some text in
 
 ## Day 10 - Added new projects section, will start to fill that out tomorrow
+
+## Day 11 - added in card styling
