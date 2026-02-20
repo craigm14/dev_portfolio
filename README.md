@@ -23,3 +23,5 @@ Personl Portfolio
 ## Day 8 - Had some trouble with vite today, reinstalled Node and updated the banner with Remixicon (added socials and download CV to banner)
 
 ## Day 9 - Added more styling, built jsx file for about section and added some text in
+
+## Day 10 - Added new projects section, will start to fill that out tomorrow

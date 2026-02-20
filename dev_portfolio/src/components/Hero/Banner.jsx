@@ -54,7 +54,7 @@ function Banner() {
               className="inline-flex items-center gap-1 text-white hover:underline "
             >
               <RiGithubFill color="rgba(255,255,255,1)" />
-              LinkedIn
+              Github
             </a>
           </div>
         </div>
