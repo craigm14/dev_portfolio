@@ -1,3 +1,4 @@
+import { Section } from "../Section/section";
 function Card() {
   return (
     <section className="flex flex-col gap-2 max-w-[700px] mx-auto pt-10 max-md:flex-col max-md:gap- max-md:mx-4">
@@ -9,22 +10,18 @@ function Card() {
         <div className="border p-2 border--card-border">
           <img className="w-2xl object-cover" src="../../img/pokemon.jpg"></img>
           <h2 className="pt-5 text-white">Pokemon App</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.{" "}
-          </p>
+          <p>Small Pokemon app - work in progress</p>
         </div>
         <div className="border p-2 border--card-border">
           <img
             className="w-2xl  object-cover"
             src="../../img/pokemon.jpg"
           ></img>
-          <h2 className="pt-5 text-white">Pokemon App</h2>
+          <h2 className="pt-5 text-white">Three </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.{" "}
+            I built this webpage as part of a coding course a while ago using
+            HTML and SCSS. The goal was to replicate your chosen page as close
+            as possible.{" "}
           </p>
         </div>
       </div>

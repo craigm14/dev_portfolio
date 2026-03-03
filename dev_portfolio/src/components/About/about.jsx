@@ -1,22 +1,24 @@
+import { Section } from "../Section/section";
 function about() {
   return (
-    <section className="flex flex-col gap-2 max-w-[700px] mx-auto pt-10 max-md:flex-col max-md:gap-4 max-md:mx-4">
+    <Section>
       <div className="" style={{ color: "var(--primary-color)" }}>
         <h3 className="font-bold text-2xl text-white">About Me</h3>
         <p className="pt-5">
-          Lorem ipsum dolor sit amet. Ut maxime numquam qui atque dolore non
-          laborum doloremque et quia similique et delectus itaque qui nostrum
-          ullam. In corporis voluptatibus non dolorum placeat est unde earum sed
-          animi quasi aut quia repellendus vel natus esse quo impedit possimus.
+          I'm a digital specialist with hands-on experience in website builds,
+          CMS management and quality assurance across enterprise platforms. I've
+          supported page builds, content migrations and full deployment testing.
         </p>
-        <p className="pt-5">
-          Lorem ipsum dolor sit amet. Ut maxime numquam qui atque dolore non
-          laborum doloremque et quia similique et delectus itaque qui nostrum
-          ullam. In corporis voluptatibus non dolorum placeat est unde earum sed
-          animi quasi aut quia repellendus vel natus esse quo impedit possimus.
+        <br />
+        <p>
+          I've worked on high profile website deployments, product launches,
+          ensuring content accuracy & functaionlity and smooth deployment
+          testing across platforms like Umbraco and many others. I work in Agile
+          teams connecting the gap between content, development and marketing to
+          deliver web experinces.
         </p>
       </div>
-    </section>
+    </Section>
   );
 }
 

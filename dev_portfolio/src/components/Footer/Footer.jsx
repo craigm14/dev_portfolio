@@ -1,11 +1,18 @@
+import { Section } from "../Section/section";
 function Footer() {
   return (
-    <section className="flex flex-col gap-2 text-center max-w-[700px] mx-auto pt-10 pb-10 max-md:flex-col max-md:gap- max-md:mx-4">
+    <Section>
+      <p>
+        <i>
+          Built in Visual Studio Code by yours truly. Built with React and
+          Tailwind CSS.
+        </i>
+      </p>
       <hr class="my-8 h-px border-0 bg-white"></hr>
       <h1 className="font-bold text-2xl  ">Craig Moore</h1>
       <h2>Digital Specialist</h2>
       <h3>2026</h3>
-    </section>
+    </Section>
   );
 }
 

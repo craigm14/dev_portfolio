@@ -2,9 +2,10 @@ import heroimg from "../../assets/profile.jpg";
 import { RiFileDownloadLine } from "@remixicon/react";
 import { RiLinkedinBoxFill } from "@remixicon/react";
 import { RiGithubFill } from "@remixicon/react";
+import { Section } from "../Section/section";
 function Banner() {
   return (
-    <section className="flex flex-col gap-2 max-w-[700px] mx-auto pt-10 max-md:flex-col max-md:gap-4 max-md:mx-4">
+    <Section>
       <div className="flex items-start justify-between gap-6">
         <div className="flex items-start gap-4">
           <img
@@ -15,7 +16,7 @@ function Banner() {
           <div className="intro">
             <h1 className="font-bold text-2xl">Craig Moore</h1>
             <h2 style={{ color: "var(--primary-color)" }}>
-              Website coordinator
+              Digital Specialist
             </h2>
             <h3>Glasgow, UK</h3>
             <span>
@@ -59,7 +60,7 @@ function Banner() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

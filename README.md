@@ -31,3 +31,5 @@ Personl Portfolio
 ## Day 12 - added experince component, and styling will crack on with putting real content in tomorrow
 
 ## Day 13 - styling updates, added projects section and footer. Proper styling coming later
+
+## Day 14 - Bigger update than normal. Added Inter Font, updated some styling, decided to refactor the wrapper for sections on the site, now a reuseable component and added images in for stack sectoin.

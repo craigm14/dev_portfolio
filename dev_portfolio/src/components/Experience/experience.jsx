@@ -1,49 +1,39 @@
+import { Section } from "../Section/section";
 function Experience() {
   return (
-    <section className="flex flex-col gap-2 max-w-[700px] mx-auto pt-10 max-md:flex-col max-md:gap- max-md:mx-4">
+    <Section>
       <h1 className="font-bold text-2xl ">Experience</h1>
       <ol class="border-s border-neutral-300 dark:border-neutral-500">
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
             <p class="text-sm text-neutral-500 dark:text-neutral-300">
-              01.07.2021
+              01.09.2025 to 01.08.2026
             </p>
           </div>
           <div class="mb-6 ms-4 mt-2">
-            <h4 class="mb-1.5 text-xl font-semibold">Title of section 1</h4>
+            <h4 class="mb-1.5 text-xl font-semibold">
+              LGC - Website Coordinator
+            </h4>
             <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              scelerisque diam non nisi semper, et elementum lorem ornare.
-              Maecenas placerat facilisis mollis. Duis sagittis ligula in
-              sodales vehicula.
+              As Website Coordinator, I supported the end to end rebuild of the
+              BRCGS website on the Umbraco platform, working closly with
+              internal stakeholders and external agencies to ensure a successful
+              delviery.
             </p>
           </div>
         </li>
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">
-              01.07.2021
-            </p>
-          </div>
-          <div class="mb-6 ms-4 mt-2">
-            <h4 class="mb-1.5 text-xl font-semibold">Title of section 1</h4>
-            <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              scelerisque diam non nisi semper, et elementum lorem ornare.
-              Maecenas placerat facilisis mollis. Duis sagittis ligula in
-              sodales vehicula.
-            </p>
-          </div>
-          <div class="mb-6 ms-4 mt-2">
             <a className="" href="../../assets/CraigMooreCV2026.docx">
               Click to see more...
             </a>
           </div>
+          <div class="mb-6 ms-4 mt-2"></div>
         </li>
       </ol>
-    </section>
+    </Section>
   );
 }
 
