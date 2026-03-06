@@ -2,8 +2,8 @@ import { Section } from "../Section/section";
 function about() {
   return (
     <Section>
-      <div className="" style={{ color: "var(--primary-color)" }}>
-        <h3 className="font-bold text-2xl text-white">About Me</h3>
+      <div>
+        <h1 className="font-bold text-2xl text-white">About Me</h1>
         <p className="pt-5">
           I'm a digital specialist with hands-on experience in website builds,
           CMS management and quality assurance across enterprise platforms. I've

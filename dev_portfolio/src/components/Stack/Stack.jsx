@@ -27,6 +27,10 @@ function Card() {
           <img className=" object-cover" src="../../img/tailwind.jpg"></img>
           <h2 className="pt-5 text-white ">Tailwind</h2>
         </div>
+        <div className="border border--card-border">
+          <img className=" object-cover" src="../../img/loading.jpg"></img>
+          <h2 className="pt-5 text-white "></h2>
+        </div>
       </div>
     </Section>
   );

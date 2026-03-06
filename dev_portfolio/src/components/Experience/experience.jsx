@@ -2,7 +2,7 @@ import { Section } from "../Section/section";
 function Experience() {
   return (
     <Section>
-      <h1 className="font-bold text-2xl ">Experience</h1>
+      <h1 className="pb-3">Experience</h1>
       <ol class="border-s border-neutral-300 dark:border-neutral-500">
         <li>
           <div class="flex-start flex items-center pt-3">

@@ -1,17 +1,20 @@
 import { Section } from "../Section/section";
 function Footer() {
   return (
-    <Section>
+    <Section className="pb-5">
       <p>
         <i>
           Built in Visual Studio Code by yours truly. Built with React and
           Tailwind CSS.
         </i>
       </p>
-      <hr class="my-8 h-px border-0 bg-white"></hr>
-      <h1 className="font-bold text-2xl  ">Craig Moore</h1>
-      <h2>Digital Specialist</h2>
-      <h3>2026</h3>
+      <hr class=" h-px border-0 bg-white"></hr>
+      <div className="grid grid-cols-2 max-w-3xl">
+        <div className="text-left">
+          <h3>Craig Moore</h3>
+        </div>
+        <div className="text-right">© Copyright 2026</div>
+      </div>
     </Section>
   );
 }

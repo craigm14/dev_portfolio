@@ -14,10 +14,8 @@ function Banner() {
             alt="Profile picture - Craig"
           />
           <div className="intro">
-            <h1 className="font-bold text-2xl">Craig Moore</h1>
-            <h2 style={{ color: "var(--primary-color)" }}>
-              Digital Specialist
-            </h2>
+            <h1>Craig Moore</h1>
+            <h2>Digital Specialist</h2>
             <h3>Glasgow, UK</h3>
             <span>
               <a
@@ -29,7 +27,7 @@ function Banner() {
         </div>
         <div className="flex self-end">
           <RiFileDownloadLine />
-          <a href="" className="align-self flex-end hover:underline text-bold">
+          <a href="" className="align-self flex-end hover:underline tex">
             Download CV
           </a>
         </div>

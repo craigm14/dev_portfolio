@@ -33,3 +33,5 @@ Personl Portfolio
 ## Day 13 - styling updates, added projects section and footer. Proper styling coming later
 
 ## Day 14 - Bigger update than normal. Added Inter Font, updated some styling, decided to refactor the wrapper for sections on the site, now a reuseable component and added images in for stack sectoin.
+
+## Day 15 - Updates across componets, image updates and styling updates
